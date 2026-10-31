@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasa Oprek HP - Contact Link</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            border: 3px solid #38bdf8;
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        p {
+            font-size: 0.9rem;
+            color: #94a3b8;
+            margin-bottom: 25px;
+        }
+
+        .links-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .link-card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 14px 20px;
+            border-radius: 12px;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: transform 0.2s, opacity 0.2s;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .link-card:active {
+            transform: scale(0.98);
+        }
+
+        /* Warna Tombol */
+        .wa { background-color: #25D366; }
+        .tele { background-color: #229ED9; }
+        .ig { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+        .yt { background-color: #FF0000; }
+        .sociabuzz { background-color: #f39c12; }
+
+        footer {
+            margin-top: 30px;
+            font-size: 0.75rem;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Foto Profil -->
+        <img src="https://cdn.phototourl.com/member/2026-10-17-0cf4406d-748f-4999-80bf-eec69de8e664.jpg" alt="Profile" class="profile-img">
+        
+        <h1>JASA OPREK HP</h1>
+        <p>Konsultasi, Root, UBL & Fake Gps</p>
+
+        <div class="links-wrapper">
+            <!-- WhatsApp -->
+            <a href="https://wa.me/628157764955" target="_blank" class="link-card wa">
+                💬 Chat via WhatsApp
+            </a>
+
+            <!-- Telegram -->
+            <a href="https://t.me/micin09" target="_blank" class="link-card tele">
+                ✈️ Telegram Official
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://instagram.com/fakhirul__" target="_blank" class="link-card ig">
+                📸 Instagram
+            </a>
+
+            <!-- YouTube (Baru) -->
+            <a href="https://youtube.com/@khirulart" target="_blank" class="link-card yt">
+                ▶️ Channel YouTube
+            </a>
+
+            <!-- SociaBuzz -->
+            <a href="https://sociabuzz.com/irul2071/tribe" target="_blank" class="link-card sociabuzz">
+                ☕ DUKUNG / SAWER (SociaBuzz)
+            </a>
+        </div>
+
+        <footer>
+            © Jasa Oprek HP. All rights reserved.
+        </footer>
+    </div>
+
+</body>
+</html>
