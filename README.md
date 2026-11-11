@@ -103,7 +103,7 @@
             </a>
 
             <!-- Telegram -->
-            <a href="https://t.me/micin09" target="_blank" class="link-card tele">
+            <a href="https://t.me/irul404" target="_blank" class="link-card tele">
                 ✈️ Telegram Official
             </a>
 
